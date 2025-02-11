@@ -1,4 +1,4 @@
-# pythonPractice
+# PythonPractice
 ## Introduction
 I created this repository to keep track of my progress in Python 3. I've been working my way through free, online practice materials.
 
