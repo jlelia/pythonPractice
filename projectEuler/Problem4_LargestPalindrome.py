@@ -1,10 +1,10 @@
 # Project Euler 4: Largest palindrome product of two 3-digit numbers
 
-def isPalindrome(x, y):
+def isPalindrome(min, max):
     ijList = []
     palindromeList = []
-    for i in range(x, y):
-        for j in range(i,y):
+    for i in range(min, max):
+        for j in range(i, max):
             ijList.append(i * j)
     for i in ijList:
         if str(i) == str(i)[::-1]:
