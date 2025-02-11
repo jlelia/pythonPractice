@@ -1,5 +1,7 @@
 # Problem 5: Smallest Multiple
 
+# unfinished, will return
+
 def smallestMultiple(max, maxFactor):
     multiples = []
     for i in range(1, max+1, maxFactor):
