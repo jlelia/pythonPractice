@@ -24,6 +24,6 @@ def primeFactor(number):
     for n in factor(number):
         if isPrime(n):
             primeFactors.append(n)
-    return primeFactors
+    return primeFactors[-1]
 
 print(primeFactor(600851475143))
